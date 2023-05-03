@@ -1,0 +1,31 @@
+{
+  "name": "my-app",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "devSimple": "hattip serve ./hattip-entry.ts",
+    "devSimpleClient": "hattip serve ./hattip-entry.ts --client",
+    "devNode": "hattip serve ./hattip-entry.ts --node ./hattip-node.ts",
+    "devNodeClient": "hattip serve ./hattip-entry.ts --node ./hattip-node.ts --client"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "@hattip/vite": "^0.0.33",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@auth/core": "^0.7.0",
+    "@hattip/adapter-node": "^0.0.33",
+    "@hattip/router": "^0.0.33",
+    "cross-fetch": "^3.1.5",
+    "hattip": "^0.0.33",
+    "solid-js": "^1.7.3",
+    "solide": "^0.0.2",
+    "telefunc": "^0.1.52",
+    "vike-authjs": "^0.0.1",
+    "vite": "^4.3.2",
+    "vite-plugin-ssr": "^0.4.117"
+  }
+}
