@@ -27,5 +27,10 @@
     "vike-authjs": "^0.0.1",
     "vite": "^4.3.2",
     "vite-plugin-ssr": "^0.4.117"
+  },
+  "pnpm": {
+    "overrides": {
+      "vite-plugin-ssr": "0.4.123"
+    }
   }
 }

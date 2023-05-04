@@ -1,5 +1,8 @@
 lockfileVersion: 5.4
 
+overrides:
+  vite-plugin-ssr: 0.4.123
+
 specifiers:
   '@auth/core': ^0.7.0
   '@hattip/adapter-node': ^0.0.33
@@ -13,7 +16,7 @@ specifiers:
   typescript: ^5.0.0
   vike-authjs: ^0.0.1
   vite: ^4.3.2
-  vite-plugin-ssr: ^0.4.117
+  vite-plugin-ssr: 0.4.123
 
 dependencies:
   '@auth/core': 0.7.1
@@ -26,7 +29,7 @@ dependencies:
   telefunc: 0.1.53
   vike-authjs: 0.0.1
   vite: 4.3.4
-  vite-plugin-ssr: 0.4.121_vite@4.3.4
+  vite-plugin-ssr: 0.4.123_vite@4.3.4
 
 devDependencies:
   '@hattip/vite': 0.0.33_vite@4.3.4
@@ -1240,7 +1243,7 @@ packages:
       solid-js: 1.7.4
       vite: 4.3.4
       vite-plugin-solid: 2.7.0_solid-js@1.7.4+vite@4.3.4
-      vite-plugin-ssr: 0.4.121_vite@4.3.4
+      vite-plugin-ssr: 0.4.123_vite@4.3.4
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -1359,8 +1362,8 @@ packages:
       - supports-color
     dev: false
 
-  /vite-plugin-ssr/0.4.121_vite@4.3.4:
-    resolution: {integrity: sha512-6hJXWH8JAcBjRVwZeuI/yIk5gwJrdllZaBTBGXHH0Py0o0cJ1i8p7KZ3hht0SzY63pt0apekXKxnqW/brODung==}
+  /vite-plugin-ssr/0.4.123_vite@4.3.4:
+    resolution: {integrity: sha512-lIHmvsS7xINxk8AiMn9O9q6dTeLDay0q3iRCMZd4MlzhyMcEUUuEYyx/vWevXIO7+CTt5cOVcTsojeAU+eUMNw==}
     engines: {node: '>=12.19.0'}
     hasBin: true
     peerDependencies:
